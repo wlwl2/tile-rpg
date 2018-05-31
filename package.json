@@ -1,7 +1,7 @@
 {
-  "name": "browser-rpg",
-  "version": "0.3.0",
-  "description": "A 2D role-playing game engine.",
+  "name": "tile-rpg",
+  "version": "1.0.0",
+  "description": "A more tile-based 2D role-playing game engine.",
   "main": "src/build.js",
   "scripts": {
     "start": "npm run dev",
