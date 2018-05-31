@@ -1,0 +1,60 @@
+.tile-selector {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.tile-list div {
+  cursor: pointer;
+  margin: 10px;
+}
+
+.tile-list div:hover {
+  opacity: .5;
+}
+
+.currently-selected-tile {
+  font-size: 14px;
+  font-weight: normal;
+  text-align: left;
+  min-width: 30px;
+  min-height: 30px;
+  border: 1px solid black;
+}
+
+.reset-tile-button {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.image {
+  display: none;
+}
+
+.grass {
+  height: 32px;
+  width: 32px;
+  background-image: url('images/gfx/Overworld.png');
+  background-position: -272px -464px;
+}
+
+.tree {
+  height: 32px;
+  width: 32px;
+  background-image: url('images/sprites/tree4.png');
+  background-position: 0px 0px;
+}
+
+.player {
+  width: 15px;
+  height: 22px;
+  background-image: url('images/gfx/character.png');
+  background-position: -1px -6px;
+}
+
+.monster {
+  width: 21px;
+  height: 23px;
+  background-image: url('images/gfx/log.png');
+  background-position: -4px -7px;
+}

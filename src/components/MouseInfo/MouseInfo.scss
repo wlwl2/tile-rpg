@@ -1,0 +1,11 @@
+.mouse-info {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.mouse-info div {
+  position: relative;
+  z-index: 5;
+  border: 1px solid blue;
+}

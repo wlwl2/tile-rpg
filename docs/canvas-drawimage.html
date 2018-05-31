@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/ico" href="favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <title></title>
+  </head>
+  <body>
+    <h2>CanvasRenderingContext2D.drawImage()</h2>
+    <img src="canvas-drawimage.jpg" alt="">
+    <h3>Syntax</h3>
+    <p>void ctx.drawImage(image, dx, dy);</p>
+    <p>void ctx.drawImage(image, dx, dy, dWidth, dHeight);</p>
+    <p>void ctx.drawImage(image, sx, sy, sWidth, sHeight, dx, dy, dWidth, dHeight);</p>
+    <h3>Parameters</h3>
+    <p>image</p>
+      An element to draw into the context. The specification permits any canvas image source (CanvasImageSource), specifically, a CSSImageValue, an HTMLImageElement, an SVGImageElement, an HTMLVideoElement, an HTMLCanvasElement, an ImageBitmap, or an OffscreenCanvas.
+    <p>dx</p>
+      The X coordinate in the destination canvas at which to place the top-left corner of the source image.
+    <p>dy</p>
+      The Y coordinate in the destination canvas at which to place the top-left corner of the source image.
+    <p>dWidth</p>
+      The width to draw the image in the destination canvas. This allows scaling of the drawn image. If not specified, the image is not scaled in width when drawn.
+    <p>dHeight</p>
+      The height to draw the image in the destination canvas. This allows scaling of the drawn image. If not specified, the image is not scaled in height when drawn.
+    <p>sx</p>
+      The X coordinate of the top left corner of the sub-rectangle of the source image to draw into the destination context.
+    <p>sy</p>
+      The Y coordinate of the top left corner of the sub-rectangle of the source image to draw into the destination context.
+    <p>sWidth</p>
+      The width of the sub-rectangle of the source image to draw into the destination context. If not specified, the entire rectangle from the coordinates specified by sx and sy to the bottom-right corner of the image is used.
+    <p>sHeight</p>
+      The height of the sub-rectangle of the source image to draw into the destination context.
+    <h3>Exceptions thrown</h3>
+    <p>INDEX_SIZE_ERR</p>
+      If the canvas or source rectangle width or height is zero.
+    <p>INVALID_STATE_ERR</p>
+      The image has no image data.
+    <p>TYPE_MISMATCH_ERR</p>
+      The specified source element isn't supported.
+    <p>References:</p>
+    <a href="https://developer.mozilla.org/en/docs/Web/API/CanvasRenderingContext2D/drawImage">
+      https://developer.mozilla.org/en/docs/Web/API/CanvasRenderingContext2D/drawImage
+    </a>
+    <script src="script.js"></script>
+  </body>
+</html>

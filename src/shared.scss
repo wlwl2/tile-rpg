@@ -1,0 +1,88 @@
+html {
+  font-family: Silkscreen;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+body {
+  font-family: Silkscreen;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(230, 230, 230);
+}
+
+.game {
+  height: 100vh;
+  width: 100vw;
+  margin: 0 auto;
+  position: relative;
+}
+
+canvas[data-cursor="pointer"] {
+  cursor: pointer;
+}
+
+canvas {
+  position: relative;
+  z-index: 1;
+  display: block;
+  margin: 0 auto;
+}
+
+.instructions {
+  position: absolute;
+  bottom: 0;
+  z-index: 4;
+  right: 0;
+  padding: 10px;
+  color: rgb(68, 32, 28);
+  font-size: 24px;
+  text-align: right;
+}
+
+// landscape
+@media screen and (min-aspect-ratio: 1/1) {
+  canvas {
+    height: 100vh;
+    width: 100vh;
+  }
+}
+
+// portrait
+@media screen and (max-aspect-ratio: 1/1) {
+  canvas {
+    height: 100vw;
+    width: 100vw;
+  }
+}
+
+// landscape
+@media screen and (max-width: 1023px) and (min-aspect-ratio: 1/1) {
+  canvas {
+    height: 100vh;
+    width: 100vh;
+  }
+}
+
+// portrait
+@media screen and (max-width: 1023px) and (max-aspect-ratio: 1/1) {
+  canvas {
+    height: 100vw;
+    width: 100vw;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .instructions {
+    font-size: 16px;
+  }
+
+  .menu__section-container {
+    margin: 20px;
+  }
+}

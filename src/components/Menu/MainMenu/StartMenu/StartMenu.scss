@@ -1,0 +1,25 @@
+.start-menu {
+
+}
+
+.start-menu__title {
+  font-size: 36px;
+}
+
+.start-menu__menu {
+  font-size: 20px;
+  li {
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+  }
+}
+
+.start-menu__menu li[data-selected="yes"] {
+  background-color: black;
+  color: white;
+}
+
+.start-menu__controls {
+  font-size: 16px;
+}

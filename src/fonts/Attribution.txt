@@ -1,0 +1,11 @@
+Font Creator:
+Jason Kottke
+https://kottke.org/plus/type/silkscreen/
+http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
+
+Silkscreen was designed from scratch using Adobe Photoshop 5.02 and
+Macromedia Fontographer 3.52 on Windows NT 4.0.
+
+The Silkscreen type family is absolutely free for personal or corporate use.
+You can use it for any project you want (Web, print, or otherwise) without
+owing anyone a single penny.
