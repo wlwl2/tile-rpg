@@ -8,8 +8,7 @@ export default class Monster {
     this.destX = x
     this.destY = y
     this.entityNumber = 3
-    this.destWidth = 21
-    this.destHeight = 23
+    this.destSize = 32
     this.size = 23
     this.speed = 4
     this.category = 'monster'
@@ -32,7 +31,7 @@ export default class Monster {
 
 Monster.prototype.draw = function draw (ctx) {
   ctx.drawImage(this.img, this.srcX, this.srcY, this.srcWidth, this.srcHeight,
-    this.destX, this.destY, this.destWidth, this.destHeight)
+    this.destX, this.destY, this.destSize, this.destSize)
 }
 
 Monster.prototype.step = function step (canvasLength, world, freeze) {
